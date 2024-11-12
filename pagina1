@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Autos - Fernando Benítez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Texto de bienvenida animado -->
+    <h1 class="welcome-text">¡Bienvenido a la Tabla de Autos!</h1>
+    
+    <!-- Imagen en movimiento -->
+    <div class="image-container">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2FPMSRLRlYxRdjIMBQ6O%2Fgiphy.gif&f=1&nofb=1&ipt=74c483ecb363ffb121c114f6a5c022b52773f496bff81786bc2171fd29abc91f&ipo=images">
+    </div>
+
+    <!-- Botones de vínculos a otras páginas -->
+    <div class="button-container">
+        <a href="index.html" class="styled-button">Inicio</a>
+        <a href="pagina2.html" class="styled-button">Página 2</a>
+    </div>
+
+    <!-- Tabla de autos con estilo -->
+    <section class="car-table">
+        <h2>Tabla de Autos</h2>
+        <table>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Año</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Toyota</td>
+                <td>Corolla</td>
+                <td>2022</td>
+                <td>$20,000</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Mustang</td>
+                <td>2021</td>
+                <td>$28,000</td>
+            </tr>
+            <tr>
+                <td>Chevrolet</td>
+                <td>Camaro</td>
+                <td>2020</td>
+                <td>$35,000</td>
+            </tr>
+            <tr>
+                <td>Honda</td>
+                <td>Civic</td>
+                <td>2019</td>
+                <td>$18,000</td>
+            </tr>
+            <tr>
+                <td>BMW</td>
+                <td>Serie 3</td>
+                <td>2023</td>
+                <td>$45,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Derechos de autor -->
+    <footer>
+        <p>&copy; 2024 Fernando Benítez</p>
+    </footer>
+</body>
+</html>
