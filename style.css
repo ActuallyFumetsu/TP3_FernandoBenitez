@@ -119,3 +119,42 @@ footer {
     background-color: #ddd;
 }
 
+/* Estilos para la galería de autos */
+.car-gallery {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.car-image {
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.car-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-image:hover img {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.car-image p {
+    margin-top: 8px;
+    font-size: 1em;
+    color: #333;
+}
