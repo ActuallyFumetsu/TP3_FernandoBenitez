@@ -1,0 +1,89 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Texto de bienvenida animado */
+.welcome-text {
+    font-size: 2em;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animación para el texto de bienvenida */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Imagen en movimiento */
+.image-container {
+    margin: 20px auto;
+    width: 300px;
+    animation: slideIn 3s infinite alternate;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Animación de la imagen */
+@keyframes slideIn {
+    from {
+        transform: translateX(-20px);
+    }
+    to {
+        transform: translateX(20px);
+    }
+}
+
+/* Botón con estilo */
+.styled-button {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+/* Cambio de color al pasar el mouse */
+.styled-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Color diferente al presionar el botón */
+.styled-button:active {
+    background-color: #003d7a;
+    transform: scale(0.95);
+}
+
+/* Descripción de las páginas */
+.page-descriptions {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Derechos de autor */
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
